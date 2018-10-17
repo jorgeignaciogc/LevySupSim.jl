@@ -68,7 +68,8 @@ Consider the payoff
 4. barrier level <a href="https://www.codecogs.com/eqnedit.php?latex=$B&space;=&space;115$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$B&space;=&space;115$" title="$B = 115$" /></a>
 5. risk-free interest rate <a href="https://www.codecogs.com/eqnedit.php?latex=r&space;=&space;0.05" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r&space;=&space;0.05" title="r = 0.05" /></a>
 
-and an NIG process with parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma&space;=&space;0.1836,&space;\theta&space;=&space;-0.1313,&space;\kappa&space;=&space;1.2819" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma&space;=&space;0.1836,&space;\theta&space;=&space;-0.1313,&space;\kappa&space;=&space;1.2819" title="\sigma = 0.1836, \theta = -0.1313, \kappa = 1.2819" /></a>
+and an NIG process with parameters <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma&space;=&space;0.1836,&space;\theta&space;=&space;-0.1313,&space;\kappa&space;=&space;1.2819" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma&space;=&space;0.1836,&space;\theta&space;=&space;-0.1313,&space;\kappa&space;=&space;1.2819" title="\sigma = 0.1836, \theta = -0.1313, \kappa = 1.2819" /></a>.
+Assume the stock price process is <a href="https://www.codecogs.com/eqnedit.php?latex=S_t=S_0&space;e^{X_t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_t=S_0&space;e^{X_t}" title="S_t=S_0 e^{X_t}" /></a>.
 
     using Statistics, StatsBase
     # Parameters:
