@@ -17,7 +17,9 @@ Define
 <a href="https://www.codecogs.com/eqnedit.php?latex=$\overline{X}_T=\sup_{t\leq&space;T}X_t$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\overline{X}_T=\sup_{t\leq&space;T}X_t$" title="$\overline{X}_T=\sup_{t\leq T}X_t$" /></a>
 and 
 <a href="https://www.codecogs.com/eqnedit.php?latex=$\tau=\inf\{t>0:X_t\vee&space;X_{t-}=\overline{X}_T\}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\tau=\inf\{t>0:X_t\vee&space;X_{t-}=\overline{X}_T\}$" title="$\tau=\inf\{t>0:X_t\vee X_{t-}=\overline{X}_T\}$" /></a>
-then the output takes $n$ steps and is an approximate simulation of 
+then the output takes 
+<a href="https://www.codecogs.com/eqnedit.php?latex=$n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$n$" title="$n$" /></a> 
+steps and is an approximate simulation of 
 <a href="https://www.codecogs.com/eqnedit.php?latex=$(X_T,\overline{X}_T,\tau)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$(X_T,\overline{X}_T,\tau)$" title="$(X_T,\overline{X}_T,\tau)$" /></a>
 such that:
 1. is exact in the first coordinate
