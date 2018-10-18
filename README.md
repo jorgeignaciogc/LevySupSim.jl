@@ -1,8 +1,7 @@
 # LevySupSim.jl
 This code is an implementation of the algorithm presented in the paper
 
-A Julia package for exact simulation of the supremum of a stable process.
-This is a simple algorithm that simulates approximately (geometrically quickly) 
+A Julia package for the approximate geometrically convergent simulation of
 the supremum of a Lévy process over a finite interval. 
 The output is the triplet of the state of the process, 
 the approximate supremum, and the time at which the supremum is attained.
@@ -35,8 +34,9 @@ The main function is
 which requires a sampler for the increments of the Levy process 
 and returns the triplet in the form of a tuple of vectors (see the example below).
 ### Lévy increment samplers included
-For some <a href="https://www.codecogs.com/eqnedit.php?latex=$t\in(0,\infty)^n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$t\in(0,\infty)^n$" title="$t\in(0,\infty)^n$" /></a>,
+Fix some <a href="https://www.codecogs.com/eqnedit.php?latex=$t\in(0,\infty)^n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$t\in(0,\infty)^n$" title="$t\in(0,\infty)^n$" /></a>,
 with <a href="https://www.codecogs.com/eqnedit.php?latex=$n\in\mathbb{N}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$n\in\mathbb{N}$" title="$n\in\mathbb{N}$" /></a>.
+
 Variance Gamma
 
     VG(ℓ,Θ)
