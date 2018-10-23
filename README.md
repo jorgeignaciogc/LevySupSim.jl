@@ -39,17 +39,17 @@ with <a href="https://www.codecogs.com/eqnedit.php?latex=$n\in\mathbb{N}$" targe
 
 Variance Gamma
 
-    VG(ℓ,Θ)
+    VG(t,Θ)
 where <a href="https://www.codecogs.com/eqnedit.php?latex=$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_&plus;\times\mathbb{R}\times\mathbb{R}_&plus;\times\mathbb{R}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_&plus;\times\mathbb{R}\times\mathbb{R}_&plus;\times\mathbb{R}$" title="$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_+\times\mathbb{R}\times\mathbb{R}_+\times\mathbb{R}$" /></a>.
     
 Normal Inverse Gaussian
 
-    NIG(ℓ,Θ)
+    NIG(t,Θ)
 where <a href="https://www.codecogs.com/eqnedit.php?latex=$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_&plus;\times\mathbb{R}\times\mathbb{R}_&plus;\times\mathbb{R}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_&plus;\times\mathbb{R}\times\mathbb{R}_&plus;\times\mathbb{R}$" title="$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_+\times\mathbb{R}\times\mathbb{R}_+\times\mathbb{R}$" /></a>.
 
 Weakly Stable
 
-    WS(ℓ,Θ)
+    WS(t,Θ)
 where <a href="https://www.codecogs.com/eqnedit.php?latex=$\Theta=(\alpha,\beta,\gamma,b)\in(0,2]\times[-1,1]\times\mathbb{R}_&plus;\times\mathbb{R}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\Theta=(\alpha,\beta,\gamma,b)\in(0,2]\times[-1,1]\times\mathbb{R}_&plus;\times\mathbb{R}$" title="$\Theta=(\alpha,\beta,\gamma,b)\in(0,2]\times[-1,1]\times\mathbb{R}_+\times\mathbb{R}$" /></a>.
 
 See the code and the example below for details.
