@@ -1,1 +1,9 @@
-
+cff-version: 1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: González Cázares, Mijatovic, Uribe Bravo
+    given-names: Jorge, Aleksandar, Gerónimo
+    orcid: https://orcid.org/0000-0002-6949-3566
+title: "Simulation of the Extrema of Lévy Processes"
+version: 1.0
+date-released: 2018-10-17
