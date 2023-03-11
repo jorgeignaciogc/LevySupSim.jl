@@ -63,7 +63,7 @@ See the code and the example below for details.
 
 ### Notes: StableSupremum
 This distributions' implementation relies on a recent paper by the authors of the package. See the article for details at:  
-Jorge I. González Cázares and Aleksandar Mijatović and Gerónimo Uribe Bravo, *Geometrically convergent simulation of the extrema of Lévy Processes*, doi:10.1287/moor.2021.1163 (2021) and arXiv:1810.11039v3 (2021).
+Jorge I. González Cázares and Aleksandar Mijatović and Gerónimo Uribe Bravo, *Geometrically convergent simulation of the extrema of Lévy Processes*, Mathematics of Operations Research 47(2):1141-1168. doi:10.1287/moor.2021.1163 (2021) and arXiv:1810.11039v3 (2021).
 
 ## Example: Barrier Option + NIG
 Consider the payoff 
