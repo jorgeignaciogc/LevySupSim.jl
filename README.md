@@ -8,14 +8,14 @@ the approximate supremum, and the time at which the supremum is attained.
 Mathematically, take a Lévy process $X$ and a positive time horizon $T$. 
 Define 
 
-$$\overline{X}_{T} = \sup_{t\leq T}X_{t}
+$$\overline{X}\_{T} = \sup\_{t\leq T}X\_{t}
 \quad\text{and}\quad
-\tau_{T}=\inf{\\{}t>0:X_{t}\vee X_{t-}=\overline{X}_{T}{\\}},$$
+\tau\_{T}=\inf{\\{}t>0:X_{t}\vee X_{t-}=\overline{X}\_{T}{\\}},$$
 
 then the output takes $n$ 
 steps and is an approximate simulation of 
 
-$$(X_{T},\overline{X}_{T},\tau_{T})$$
+$$(X\_{T},\overline{X}\_{T},\tau\_{T})$$
 
 such that:
 1. the sample is exact in the first coordinate
@@ -43,21 +43,21 @@ Variance Gamma
     VG(t,Θ)
 where 
 
-$$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_{+}\times\mathbb{R}\times\mathbb{R}_{+}\times\mathbb{R}.$$
+$$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}\_{+}\times\mathbb{R}\times\mathbb{R}\_{+}\times\mathbb{R}.$$
     
 Normal Inverse Gaussian
 
     NIG(t,Θ)
 where 
 
-$$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}_{+}\times\mathbb{R}\times\mathbb{R}_{+}\times\mathbb{R}.$$
+$$\Theta=(\sigma,\theta,\kappa,b)\in\mathbb{R}\_{+}\times\mathbb{R}\times\mathbb{R}\_{+}\times\mathbb{R}.$$
 
 Weakly Stable
 
     WS(t,Θ)
 where 
 
-$$\Theta=(\alpha,\beta,\gamma,b)\in(0,2]\times[-1,1]\times\mathbb{R}_{+}\times\mathbb{R}.$$
+$$\Theta=(\alpha,\beta,\gamma,b)\in(0,2]\times[-1,1]\times\mathbb{R}\_{+}\times\mathbb{R}.$$
 
 See the code and the example below for details.
 
