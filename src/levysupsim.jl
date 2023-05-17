@@ -143,8 +143,9 @@ Remarks:
 =#
 function WS(ℓ,Θ)
     (α,β,γ,b) = Θ
+    B = atan(β * tan(α*pi/2)) / α
     G = rand(Uniform(-pi/2,pi/2),N)
-    G = rand(Exponential(),N) .^ (1-1/α) .* sin.(α .* (G + θ)) ./
-        (cos.(G) .^ (1/α) .* cos.(G - α .* (G + θ)) .^ (1-1/α))
+    G = rand(Exponential(),N) .^ (1-1/α) .* sin.(α .* (G + B)) ./
+        (cos.(G) .^ (1/α) .* cos.(G - α .* (G + B)) .^ (1-1/α))
     return G .* (γ .* ℓ .^ (1/α)) .+ b .* ℓ
 end
